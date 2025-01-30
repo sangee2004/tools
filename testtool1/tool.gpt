@@ -53,7 +53,7 @@ Param: post_uri: The URI of the post to delete.
 
 ---
 !metadata:*:category
-MyBluesky
+Bluesky
 
 ---
 !metadata:*:icon
