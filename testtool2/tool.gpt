@@ -5,7 +5,7 @@ Description: Tools for interacting with Bluesky (bsky.app)
 Share Tools: Create Post, Delete Post, Search Posts, Search Users
 
 ---
-Name: Search Posts
+Name: My Search Posts
 Description: Search for Bluesky posts
 Credential: ./credential
 JSON Response: true
@@ -20,7 +20,7 @@ Param: tags: (optional) A comma separated list of tags to find posts containing 
 #!/usr/bin/env npm --silent --prefix ${GPTSCRIPT_TOOL_DIR} run tool -- searchPosts
 
 ---
-Name: Search Users
+Name: My Search Users
 Description: Search for Bluesky users
 Credential: ./credential
 JSON Response: true
@@ -31,7 +31,7 @@ Param: limit: (optional) The maximum number of users to return. Must be an integ
 #!/usr/bin/env npm --silent --prefix ${GPTSCRIPT_TOOL_DIR} run tool -- searchUsers
 
 ---
-Name: Create Post
+Name: My Create Post
 Description: Create a Bluesky post
 Credential: ./credential
 JSON Response: true
@@ -42,7 +42,7 @@ Param: tags: (optional) A comma separated list of tags to add to the post. For e
 #!/usr/bin/env npm --silent --prefix ${GPTSCRIPT_TOOL_DIR} run tool -- createPost
 
 ---
-Name: Delete Post
+Name: My Delete Post
 Description: Delete a Bluesky post
 Credential: ./credential
 JSON Response: true
