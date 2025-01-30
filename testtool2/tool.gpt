@@ -10,7 +10,7 @@ Description: Search for Bluesky posts
 Credential: ./credential
 JSON Response: true
 Share Context: Current Date and Time from ../time
-Share Tools: Search Users
+Share Tools: My Search Users
 Param: query: A Lucene query to search for posts with.
 Param: since: (optional) ISO 8601 UTC timestamp to search for posts since (inclusive). Defaults to 7 days ago.
 Param: until: (optional) ISO 8601 UTC timestamp to search for posts until (exclusive). Defaults to now.
