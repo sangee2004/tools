@@ -1,0 +1,6 @@
+Name: sleep
+Description: Sleep for some number of seconds
+Args: seconds: The number of seconds to sleep
+
+#!/usr/bin/env sh
+sleep ${SECONDS}
